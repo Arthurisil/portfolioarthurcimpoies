@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur Cimpoies | Portfolio</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-gray-900 font-sans" id="body"> <div id="bg-animation-container"></div>
+
+    <nav id="navbar" class="fixed w-full top-6 z-50 px-4 nav-drop">
+        <div class="max-w-6xl mx-auto bg-white/90 backdrop-blur-md shadow-2xl rounded-2xl border border-gray-100 px-8 py-4 flex justify-between items-center">
+            <span class="text-2xl font-black text-blue-600">Portfolio</span>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="#perso" class="font-medium hover:text-blue-600 transition">À propos de moi</a>			
+                <a href="#projets" class="font-medium hover:text-blue-600 transition">Réalisations</a>
+                <a href="#competences" class="font-medium hover:text-blue-600 transition">Compétences</a>
+				<a href="#interet" class="font-medium hover:text-blue-600 transition">Centres d'intérêt</a>
+                <a href="contact.html" class="bg-blue-600 text-white px-5 py-2 rounded-xl font-bold hover:bg-blue-700 transition-all">Me contacter</a>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content" class="pt-32 relative">
+	
+		<section id="perso" class="py-24">
+			<div class="max-w-6xl mx-auto px-6">
+				<div class="text-center mb-16">
+					<h2 class="text-4xl font-bold mb-4 text-gray-900">À propos de moi</h2>
+					<div class="h-1.5 w-20 bg-blue-600 mx-auto rounded-full"></div>
+				</div>
+
+				<div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+				
+					<div class="lg:col-span-2 space-y-6">
+
+						<p class="text-lg text-gray-600 leading-relaxed">
+							Titulaire d'un <strong> BUT Réseaux et Télécommunications (parcours Cloud & DevOps)</strong>, je suis actuellement en <strong>1ʳᵉ année d’Ingénierie Systèmes Électroniques Embarqués</strong>. Cette expérience m'a permis de confirmer ma passion pour les réseaux et les systèmes, domaine vers lequel je souhaite aujourd'hui me réorienter. Cette démarche me permettra de pleinement mobiliser mes compétences techniques et de concrétiser mon projet professionnel.
+						</p>
+						<p class="text-lg text-gray-600 leading-relaxed">
+							Étant curieux de nature, je m'efforce ainsi de rester informé des dernières évolutions du secteur informatique, considérant cette veille comme un complément essentiel à mon apprentissage continu.
+						</p>
+					
+						<div class="flex flex-wrap gap-3 pt-4">
+							<span class="px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-semibold text-sm">Étudiant en RT</span>
+							<span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-full font-semibold text-sm">Passionné d'informatique</span>
+							<span class="px-4 py-2 bg-green-100 text-green-700 rounded-full font-semibold text-sm">Disponible pour Alternance</span>
+						</div>
+					</div>
+				<div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-xl space-y-8 flex flex-col items-center">
+
+					<div class="relative w-32 h-32">
+						<img src="photo/moi.png" alt="Arthur Cimpoies" class="w-full h-full object-cover rounded-full border-4 border-blue-50 shadow-md">
+						<span class="absolute bottom-2 right-2 block h-4 w-4 rounded-full bg-green-500 border-2 border-white"></span>
+					</div>
+
+					<div class="text-center">
+						<p class="text-lg font-bold text-gray-800">Arthur Cimpoies</p>
+						<p class="text-sm text-gray-500">cimpoiesproarthur@gmail.com</p>
+					</div>
+
+					<a href="cv.pdf" target="_blank" class="w-full flex items-center justify-center space-x-4 bg-blue-50 hover:bg-blue-100 p-4 rounded-xl transition-colors border border-blue-100">
+						<div class="text-blue-600">
+							<i class="fas fa-file-pdf"></i>
+						</div>
+						<div>
+							<p class="text-blue-600 font-semibold">Télécharger mon CV (PDF)</p>
+						</div>
+					</a>
+				</div>
+		</section>		 
+        <section id="projets" class="py-24">
+			<div class="max-w-6xl mx-auto px-6">
+				<div class="text-center mb-16">
+					<h2 class="text-4xl font-bold mb-4 text-gray-900">Mes Réalisations</h2>
+					<div class="h-1.5 w-20 bg-blue-600 mx-auto rounded-full"></div>
+				</div>
+
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+					<a href="sae.html" class="group bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden">
+						<div class="h-56 bg-gray-100 overflow-hidden">
+							<img src="photo/SAE/sae_icon.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+						</div>
+						<div class="p-6">
+							<h3 class="text-xl font-bold text-gray-800 mb-2">Situation d'Apprentissage et d'Évaluation</h3>
+							<p class="text-gray-500 text-sm">Effectué lors de mon BUT RT</p>
+						</div>
+					</a>
+
+					<a href="stage.html" class="group bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden">
+						<div class="h-56 bg-gray-100 overflow-hidden">
+							<img src="photo/Stage/stage_icon.jpg" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+						</div>
+						<div class="p-6">
+							<h3 class="text-xl font-bold text-gray-800 mb-2">Stage en entreprise</h3>
+							<p class="text-gray-500 text-sm">Effectué lors de mon BUT RT</p>
+						</div>
+					</a>
+
+					<a href="schema.html" class="group bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden">
+						<div class="h-56 bg-gray-100 overflow-hidden">
+							<img src="photo/elec/elec_icon.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+						</div>
+						<div class="p-6">
+							<h3 class="text-xl font-bold text-gray-800 mb-2">Schématisation électrique</h3>
+							<p class="text-gray-500 text-sm">Dans le cadre d’un projet professionnel</p>
+						</div>
+					</a>
+
+					<a href="brassage.html" class="group bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden">
+						<div class="h-56 bg-gray-100 overflow-hidden">
+							<img src="photo/brass/brass_icon.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+						</div>
+						<div class="p-6">
+							<h3 class="text-xl font-bold text-gray-800 mb-2">Brassage de baies informatiques</h3>
+							<p class="text-gray-500 text-sm">Dans le cadre d’un projet professionnel</p>
+						</div>
+					</a>
+
+					<a href="jeu.html" class="group bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden">
+						<div class="h-56 bg-gray-100 overflow-hidden">
+							<img src="photo/game/game_icon.jpg" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+						</div>
+						<div class="p-6">
+							<h3 class="text-xl font-bold text-gray-800 mb-2">Création de jeu vidéo</h3>
+							<p class="text-gray-500 text-sm">Dans le cadre d’un projet personnel</p>
+						</div>
+					</a>
+
+					<a href="mod.html" class="group bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden">
+						<div class="h-56 bg-gray-100 overflow-hidden">
+							<img src="photo/mod/mod_icon.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+						</div>
+						<div class="p-6">
+							<h3 class="text-xl font-bold text-gray-800 mb-2">Développement de Mods</h3>
+							<p class="text-gray-500 text-sm">Dans le cadre d’un projet personnel</p>
+						</div>
+					</a>
+
+					<a href="pc.html" class="group bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden md:col-span-2 md:max-w-xl md:mx-auto w-full">
+						<div class="h-56 bg-gray-100 overflow-hidden">
+							<img src="photo/PC/PC_icon.jpg" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+						</div>
+						<div class="p-6">
+							<h3 class="text-xl font-bold text-gray-800 mb-2">Montage et réparation PC</h3>
+							<p class="text-gray-500 text-sm">Dans le cadre d’un projet personnel</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+
+        <section id="competences" class="py-24">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold mb-4 text-gray-900">Compétences techniques</h2>
+                    <div class="h-1.5 w-20 bg-blue-600 mx-auto rounded-full"></div>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="group bg-white p-8 rounded-3xl border border-gray-200 shadow-sm hover:shadow-xl hover:border-blue-300 transition-all duration-300">
+                        <div class="flex items-center mb-6">
+                            <div class="p-3 bg-blue-50 text-blue-600 rounded-2xl group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                                <i class="fas fa-code text-xl"></i>
+                            </div>
+                            <h3 class="font-extrabold text-xl ml-4 text-gray-800">Programmation</h3>
+                        </div>
+                        <ul class="space-y-4 text-gray-600 font-medium">
+                            <li class="flex items-center"><span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>HTML / CSS / PHP</li>
+                            <li class="flex items-center"><span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>Python / C / C#</li>
+                            <li class="flex items-center"><span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>Bash / PowerShell</li>
+                        </ul>
+                    </div>
+
+                    <div class="group bg-white p-8 rounded-3xl border border-gray-200 shadow-sm hover:shadow-xl hover:border-blue-300 transition-all duration-300">
+                        <div class="flex items-center mb-6">
+                            <div class="p-3 bg-blue-50 text-blue-600 rounded-2xl group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                                <i class="fas fa-server text-xl"></i>
+                            </div>
+                            <h3 class="font-extrabold text-xl ml-4 text-gray-800">Systèmes</h3>
+                        </div>
+                        <ul class="space-y-4 text-gray-600 font-medium">
+                            <li class="flex items-center"><span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>VM / Cloud</li>
+                            <li class="flex items-center"><span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>Serveur / Datacenter</li>
+                            <li class="flex items-center"><span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>Virtualisation</li>
+                        </ul>
+                    </div>
+
+                    <div class="group bg-white p-8 rounded-3xl border border-gray-200 shadow-sm hover:shadow-xl hover:border-blue-300 transition-all duration-300">
+                        <div class="flex items-center mb-6">
+                            <div class="p-3 bg-blue-50 text-blue-600 rounded-2xl group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                                <i class="fas fa-network-wired text-xl"></i>
+                            </div>
+                            <h3 class="font-extrabold text-xl ml-4 text-gray-800">Réseaux</h3>
+                        </div>
+                        <ul class="space-y-4 text-gray-600 font-medium">
+                            <li class="flex items-center"><span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>Conception & Maintenance</li>
+                            <li class="flex items-center"><span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>Supervision</li>
+                            <li class="flex items-center"><span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>Sécurité Réseau</li>
+                        </ul>
+                    </div>
+
+                    <div class="group bg-white p-8 rounded-3xl border border-gray-200 shadow-sm hover:shadow-xl hover:border-blue-300 transition-all duration-300">
+                        <div class="flex items-center mb-6">
+                            <div class="p-3 bg-blue-50 text-blue-600 rounded-2xl group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                                <i class="fas fa-phone-alt text-xl"></i>
+                            </div>
+                            <h3 class="font-extrabold text-xl ml-4 text-gray-800">Téléphonie</h3>
+                        </div>
+                        <ul class="space-y-4 text-gray-600 font-medium">
+                            <li class="flex items-center"><span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>VoIP / IPBX</li>
+                            <li class="flex items-center"><span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>RTC / PABX</li>
+                        </ul>
+                    </div>
+
+                    <div class="group bg-white p-8 rounded-3xl border border-gray-200 shadow-sm hover:shadow-xl hover:border-blue-300 transition-all duration-300">
+                        <div class="flex items-center mb-6">
+                            <div class="p-3 bg-blue-50 text-blue-600 rounded-2xl group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                                <i class="fas fa-database text-xl"></i>
+                            </div>
+                            <h3 class="font-extrabold text-xl ml-4 text-gray-800">Bases de données</h3>
+                        </div>
+                        <ul class="space-y-4 text-gray-600 font-medium">
+                            <li class="flex items-center"><span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>SQL (MySQL / Postgre)</li>
+                        </ul>
+                    </div>
+
+                    <div class="group bg-white p-8 rounded-3xl border border-gray-200 shadow-sm hover:shadow-xl hover:border-blue-300 transition-all duration-300">
+                        <div class="flex items-center mb-6">
+                            <div class="p-3 bg-blue-50 text-blue-600 rounded-2xl group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                                <i class="fas fa-gamepad text-xl"></i>
+                            </div>
+                            <h3 class="font-extrabold text-xl ml-4 text-gray-800">Jeux & Logiciel</h3>
+                        </div>
+                        <ul class="space-y-4 text-gray-600 font-medium">
+                            <li class="flex items-center"><span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>Unity 3D</li>
+                            <li class="flex items-center"><span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>GDScript (Godot)</li>
+                            <li class="flex items-center"><span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>.NET Framework</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<section id="interet" class="py-24">
+			<div class="max-w-6xl mx-auto px-6">
+				<div class="text-center mb-16">
+					<h2 class="text-4xl font-bold mb-4 text-gray-900">Centres d'intérêt</h2>
+					<div class="h-1.5 w-20 bg-blue-600 mx-auto rounded-full"></div>
+				</div>
+
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+					
+					<a href="actu.html" class="group block bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden">
+						<div class="h-56 bg-gray-100 overflow-hidden">
+							<img src="photo/actu/actu.jpg" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+						</div>
+						<div class="p-6">
+							<h3 class="text-xl font-bold text-gray-800 mb-2">Actualité</h3>
+							<p class="text-gray-500 text-sm">Découvrez les actualités qui retiennent mon attention.</p>
+						</div>
+					</a>
+
+					<a href="photo.html" class="group block bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden">
+						<div class="h-56 bg-gray-100 overflow-hidden">
+							<img src="photo/photographie/photographie.jpg" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+						</div>
+						<div class="p-6">
+							<h3 class="text-xl font-bold text-gray-800 mb-2">Photographie</h3>
+							<p class="text-gray-500 text-sm">Découvrez mes photos.</p>
+						</div>
+					</a>
+
+					<a href="sport.html" class="group block bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden">
+						<div class="h-56 bg-gray-100 overflow-hidden">
+							<img src="photo/sport/sport.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+						</div>
+						<div class="p-6">
+							<h3 class="text-xl font-bold text-gray-800 mb-2">Sport</h3>
+							<p class="text-gray-500 text-sm">Découvrez mes activités sportives.</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+		
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

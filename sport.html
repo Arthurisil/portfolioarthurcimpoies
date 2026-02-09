@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Sports | Arthur Cimpoies</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-gray-900 font-sans" id="body">
+    <div id="bg-animation-container"></div>
+
+    <nav id="navbar" class="fixed w-full top-6 z-50 px-4 nav-drop">
+        <div class="max-w-6xl mx-auto bg-white/90 backdrop-blur-md shadow-2xl rounded-2xl border border-gray-100 px-8 py-4 flex justify-between items-center">
+            <a href="portfolio.html" class="text-2xl font-black text-blue-600">Portfolio</a>
+            
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="portfolio.html#perso" class="font-medium hover:text-blue-600 transition">À propos de moi</a>			
+                <a href="portfolio.html#projets" class="font-medium hover:text-blue-600 transition">Réalisations</a>
+                <a href="portfolio.html#competences" class="font-medium hover:text-blue-600 transition">Compétences</a>
+                <a href="portfolio.html#interet" class="font-medium hover:text-blue-600 transition">Centres d'intérêt</a>
+                <a href="contact.html" class="bg-blue-600 text-white px-5 py-2 rounded-xl font-bold hover:bg-blue-700 transition-all">Me contacter</a>
+            </div>
+        </div>
+    </nav>
+
+	<main class="pt-48 pb-24 px-6 max-w-6xl mx-auto">
+		<div class="text-center mb-16">
+			<h1 class="text-5xl font-extrabold mb-4 text-gray-900">Mes activités sportives</h1>
+			<div class="h-1.5 w-20 bg-blue-600 mx-auto rounded-full"></div>
+			<p class="mt-6 text-lg text-gray-600">Découvrez les sports qui rythment mon quotidien et mes passions.</p>
+		</div>
+
+		<section class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-24">
+			<div class="order-1">
+				<img src="photo/sport/course.png" class="rounded-3xl shadow-xl w-full h-auto object-cover border border-gray-100">
+			</div>
+			<div class="order-2 space-y-6">
+				<h2 class="text-3xl font-bold text-gray-800">Course à pied</h2>
+				<p class="text-lg text-gray-600 leading-relaxed">
+					La course à pied est pour moi une excellente façon de me vider la tête et de rester en forme. Que ce soit sur les chemins de campagne, en ville et même en vacances, j'apprécie me dépasser régulièrement en profitant de la nature.
+				</p>
+				<div class="flex flex-wrap gap-3">
+					<span class="px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-semibold text-sm">Endurance</span>
+					<span class="px-4 py-2 bg-yellow-100 text-yellow-700 rounded-full font-semibold text-sm">Plaisir</span>
+				</div>
+			</div>
+		</section>
+
+		<section class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-24">
+			<div class="order-2 md:order-1 space-y-6">
+				<h2 class="text-3xl font-bold text-gray-800">Musculation</h2>
+				<p class="text-lg text-gray-600 leading-relaxed">
+					La musculation est pour moi un excellent moyen de développer ma force, mon endurance et ma condition physique générale. C'est une activité qui m'apporte la satisfaction de voir des progrès concrets.
+				</p>
+				<div class="flex flex-wrap gap-3">
+					<span class="px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-semibold text-sm">Force</span>
+					<span class="px-4 py-2 bg-yellow-100 text-yellow-700 rounded-full font-semibold text-sm">Discipline</span>
+				</div>
+			</div>
+			<div class="order-1 md:order-2">
+				<img src="photo/sport/muscu.png" class="rounded-3xl shadow-xl w-full h-auto object-cover border border-gray-100">
+			</div>
+		</section> <section class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+			<div class="order-1">
+				<img src="photo/sport/rando.png" class="rounded-3xl shadow-xl w-full h-auto object-cover border border-gray-100">
+			</div>
+			<div class="order-2 space-y-6">
+				<h2 class="text-3xl font-bold text-gray-800">Randonnée & Escalade</h2>
+				<p class="text-lg text-gray-600 leading-relaxed">
+					Passionné par les activités en plein air et la haute altitude, je pratique régulièrement des randonnée et de l'escalade. La randonnée me permet de déconnecter en explorant la montagne avec des beaux paysages, tandis que l'escalade m'apporte ma dose d'adrenaline.
+				</p>
+				<div class="flex flex-wrap gap-3">
+					<span class="px-4 py-2 bg-green-100 text-green-700 rounded-full font-semibold text-sm">Nature</span>
+					<span class="px-4 py-2 bg-orange-100 text-orange-700 rounded-full font-semibold text-sm">Challenge</span>
+				</div>
+			</div>
+		</section>
+	</main>
+    <script src="script.js"></script>
+</body>
+</html>

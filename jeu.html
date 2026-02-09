@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Développement de Mods | Arthur Cimpoies</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-gray-900 font-sans" id="body">
+    <div id="bg-animation-container"></div>
+
+    <nav id="navbar" class="fixed w-full top-6 z-50 px-4 nav-drop">
+        <div class="max-w-6xl mx-auto bg-white/90 backdrop-blur-md shadow-2xl rounded-2xl border border-gray-100 px-8 py-4 flex justify-between items-center">
+            <a href="portfolio.html" class="text-2xl font-black text-blue-600">Portfolio</a>
+            
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="portfolio.html#perso" class="font-medium hover:text-blue-600 transition">À propos de moi</a>			
+                <a href="portfolio.html#projets" class="font-medium hover:text-blue-600 transition">Réalisations</a>
+                <a href="portfolio.html#competences" class="font-medium hover:text-blue-600 transition">Compétences</a>
+                <a href="portfolio.html#interet" class="font-medium hover:text-blue-600 transition">Centres d'intérêt</a>
+                <a href="contact.html" class="bg-blue-600 text-white px-5 py-2 rounded-xl font-bold hover:bg-blue-700 transition-all">Me contacter</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-48 pb-24 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h1 class="text-5xl font-extrabold mb-4 text-gray-900">Création de jeu vidéo</h1>
+            <div class="h-1.5 w-20 bg-blue-600 mx-auto rounded-full"></div>
+            <p class="mt-6 text-lg text-gray-600">Créer un jeu vidéo par curiosité technique.</p>
+        </div>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-24">
+            <div class="order-1">
+                <img src="photo/game/game_icon.jpg" class="rounded-3xl shadow-xl w-full h-auto object-cover border border-gray-100">
+            </div>
+            <div class="order-2 space-y-6">
+                <h2 class="text-3xl font-bold text-gray-800">Contexte</h2>
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    Tout a commencé au collège, lors d'un projet de NSI qui consistait à créer un jeu vidéo en python. Dans mon groupe, la motivation manquait, alors j'ai pris les devants : j'ai laissé mes camarades s'occuper des rapports écrits pour me consacrer entièrement au codage d'un jeu de recherche d'objets dans des images. Cependant, après avoir rendu le projet, je suis personnellement resté sur ma faim. Récemment, en jouant à un titre indépendant sur mobile, ma curiosité a été piquée à nouveau. Ce déclic m'a poussé à m'investir à fond pour maîtriser, cette fois-ci, toutes les facettes de la création et donc pour franchir un nouveau cap technique, j'ai décidé de laisser Python de côté pour me lancer pleinement sur Unity.
+        </p> 
+                </p>
+                <div class="flex flex-wrap gap-3">
+                    <span class="px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-semibold text-sm">Python</span>
+                    <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-full font-semibold text-sm">Unity</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-24">
+            <div class="order-2 md:order-1 space-y-6">
+                <h2 class="text-3xl font-bold text-gray-800">Brainstorming</h2>
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    Pour ce nouveau départ, j'ai décidé de structurer mes idées de manière méthodique. J’ai d’abord listé toutes mes inspirations sur un premier tableur, avant de les filtrer pour n’en garder qu’une seule : la base même de mon futur jeu. Une fois cette base solide établie, j’ai élaboré un second document beaucoup plus détaillé. Étape par étape, j’y ai planifié le développement, en triant les mécaniques, l'univers et les éléments d’histoire que je souhaitais implémenter. Cette phase de réflexion m'a permis de transformer une simple envie en une véritable feuille de route structurée et organisée.
+                </p>
+                <div class="flex flex-wrap gap-3">
+                    <span class="px-4 py-2 bg-green-100 text-green-700 rounded-full font-semibold text-sm">Réflexion</span>
+                    <span class="px-4 py-2 bg-yellow-100 text-yellow-700 rounded-full font-semibold text-sm">Organisation</span>
+					<span class="px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-semibold text-sm">Excel</span>
+                </div>
+            </div>
+            <div class="order-1 md:order-2">
+                <img src="photo/game/brainstorm.jpg" class="rounded-3xl shadow-xl w-full h-auto object-cover border border-gray-100">
+            </div>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="order-1">
+                <img src="photo/game/unity.png" class="rounded-3xl shadow-xl w-full h-auto object-cover border border-gray-100">
+            </div>
+            <div class="order-2 space-y-6">
+                <h2 class="text-3xl font-bold text-gray-800">Création sur Unity Hub</h2>
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    Une fois mon plan établi, je me suis lancé sur Unity. Au départ, l'immensité de l'outil m'a arrêté net et j'ai vite compris qu'apprendre seul, ne suffirait pas. Je me suis alors imposé un apprentissage en suivant des tutoriels complets sur YouTube, Tiktok et des forums. Loin de simplement copier le code, je me servais de chaque projet de test comme d'un laboratoire pour expérimenter mes propres variantes et comprendre la logique du moteur. Ce n'est qu'après avoir acquis cette base technique et cette confiance que j'ai enfin ouvert un projet vide pour débuter ma propre création.
+                </p>
+                <div class="flex flex-wrap gap-3">
+                    <span class="px-4 py-2 bg-green-100 text-green-700 rounded-full font-semibold text-sm">C# / Scripting</span>
+                    <span class="px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-semibold text-sm">Autodidacte</span>
+                </div>
+            </div>
+        </section>
+		
+		<section class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-24">
+            <div class="order-2 md:order-1 space-y-6">
+                <h2 class="text-3xl font-bold text-gray-800">Modélisation 3D et Sound Design</h2>
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    Lors de la phase de développement, j'ai été confronté à un obstacle majeur : l'absence de modèles 3D pour tester mes scripts en temps réel. Au lieu de me décourager, j'ai décidé de prendre les devants en apprenant à utiliser Blender pour modéliser mes propres objets et créer mes propres textures. En parallèle, pour donner une véritable identité et de la vie à ma création, j'ai conçu mes propres effets sonores à l'aide d'un microphone et d'Audacity. Cette approche personnelle m'a permis de ne plus dépendre de ressources open source et de maîtriser les aspect technique de mon projet.
+                </p>
+                <div class="flex flex-wrap gap-3">
+                    <span class="px-4 py-2 bg-green-100 text-green-700 rounded-full font-semibold text-sm">Blender</span>
+                    <span class="px-4 py-2 bg-yellow-100 text-yellow-700 rounded-full font-semibold text-sm">Audacity</span>
+                </div>
+            </div>
+            <div class="order-1 md:order-2">
+                <img src="photo/game/blend.png" class="rounded-3xl shadow-xl w-full h-auto object-cover border border-gray-100">
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
